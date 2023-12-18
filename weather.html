@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="bg coloumn">
+        <div></div>
+        <div>
+            <h1 style="font-family: serif; color: white; margin-top: 80px; margin-left: 125px;">Weather Forecast</h1>
+            <label for="city"></label>
+            <input type="text" id="city" name="city" placeholder="Search by location">
+            <button class="btn" onclick="onButtonClick()">Search</button>
+            <span style="margin-top: 50px;" class="current">Current</span>
+            <span class="location">Location</span>
+            <div class="block" style="color: white;">
+                <span style="width: 50px;">
+                    <p id="cloud" style="width: 70px;"></p>
+                    <p id="country" style="text-align: right; margin-top: -20px;"></p>
+                    <p id="feels" style="width: 120px;"></p>
+                    <p id="lat" style="text-align: right; margin-top: -20px;"></p>
+                    <p id="gust"></p>
+                    <p id="loctime" style="text-align: right; margin-top: -18px;"></p>
+                    <p id="hum"></p>
+                    <p id="epoch" style="text-align: right; margin-top: -15px;"></p>
+                    <p id="day"></p>
+                    <p id="lon" style="text-align: right; margin-top: -15px;"></p>
+                    <p id="last"></p>
+                    <p id="name" style="text-align: right; margin-top: -18px;"></p>
+                    <p id="precip"></p>
+                    <p id="region" style="text-align: right; margin-top: -16px;"></p>
+                    <p id="press"></p>
+                    <p id="tz_id" style="text-align: right; margin-top: -17px;"></p>
+                    <p id="temp"></p>
+                    <p id="uv"></p>
+                    <p id="km"></p>
+                    <p id="miles"></p>
+                    <p id="deg"></p>
+                    <p id="dir"></p>
+                    <p id="wind"></p>
+                </span>
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
